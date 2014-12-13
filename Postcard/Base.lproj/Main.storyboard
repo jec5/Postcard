@@ -64,7 +64,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="87" width="322" height="109"/>
+                                    <rect key="frame" x="31" y="128" width="322" height="68"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To: Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixc-DU-Nhk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="99" width="322" height="21"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cvf-uK-fkW">
@@ -108,6 +117,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="kcr-nP-mSU"/>
+                                <exclude reference="Ixc-DU-Nhk"/>
                                 <exclude reference="cvf-uK-fkW"/>
                                 <exclude reference="SgH-Pc-JzD"/>
                                 <exclude reference="5I3-w4-u6a"/>
@@ -117,6 +127,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="kcr-nP-mSU"/>
+                                <include reference="Ixc-DU-Nhk"/>
                                 <include reference="cvf-uK-fkW"/>
                                 <include reference="SgH-Pc-JzD"/>
                                 <include reference="5I3-w4-u6a"/>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="SgH-Pc-JzD" id="oAU-aE-DbE"/>
                         <outlet property="mailButton" destination="PHb-GH-FA0" id="Nxm-xy-mwh"/>
                         <outlet property="messageLabel" destination="kcr-nP-mSU" id="Ps5-hZ-aEf"/>
+                        <outlet property="nameLabel" destination="Ixc-DU-Nhk" id="AJT-TQ-vP0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
